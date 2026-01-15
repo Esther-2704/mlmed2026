@@ -1,6 +1,6 @@
 USTH Machine Learning in Medicine 2026
 ==================================
 
-* Your name here
-* Your ID here
-* Your team ID here
+* Mai Ngọc Linh
+* 23BI14255
+* 9
