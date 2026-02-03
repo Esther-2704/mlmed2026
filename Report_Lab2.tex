@@ -83,10 +83,10 @@ To further evaluate the performance of the regression model, we analyze the rela
 \end{figure}
 
 \subsection{Actual vs. Predicted Analysis}
-As shown in the plot on the left of Figure \ref{fig:regression_analysis}, the predicted values are highly correlated with the ground truth. The data points form a tight cluster along the identity line ($y=x$), indicating that the ResNet-18 model accurately estimates the head circumference in various stages of fetal growth.
+As shown in the plot on the left of Figure 2, the predicted values are highly correlated with the ground truth. The data points form a tight cluster along the identity line ($y=x$), indicating that the ResNet-18 model accurately estimates the head circumference in various stages of fetal growth.
 
 \subsection{Residual Distribution}
-The right plot in Figure \ref{fig:regression_analysis} illustrates the residuals (the difference between actual and predicted values). The errors are centered around \textbf{0 mm} and follow a near-normal distribution. Most errors fall within a narrow range, confirming that the model provides consistent and reliable measurements with minimal systematic bias.
+The right plot in Figure 2 illustrates the residuals (the difference between actual and predicted values). The errors are centered around \textbf{0 mm} and follow a near-normal distribution. Most errors fall within a narrow range, confirming that the model provides consistent and reliable measurements with minimal systematic bias.
 
 \section{In-depth Prediction Analysis}
 To better understand the model's reliability, we analyze specific samples where the model performed exceptionally well versus cases where it struggled.
@@ -105,7 +105,7 @@ To better understand the model's reliability, we analyze specific samples where 
 \end{figure}
 
 \subsection{Best Model Predictions}
-As shown in the top row of Figure \ref{fig:performance_samples}, the model excels when the fetal head has a clear, high-contrast boundary. In these cases, the predicted mask (Right) almost perfectly overlaps with the ground truth (Center), demonstrating that the ResNet-18 features are highly effective at capturing standard cranial shapes.
+As shown in the top row of Figure , the model excels when the fetal head has a clear, high-contrast boundary. In these cases, the predicted mask (Right) almost perfectly overlaps with the ground truth (Center), demonstrating that the ResNet-18 features are highly effective at capturing standard cranial shapes.
 
 \subsection{Worst Model Failures}
 The bottom row illustrates cases where the model's prediction deviates from the expert annotation. Common factors for these failures include:
